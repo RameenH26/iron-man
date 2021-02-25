@@ -1,0 +1,50 @@
+body{
+  text-align:center;
+  background-image: linear-gradient(red, yellow);
+  color: black;
+}
+#name{
+    color: red;
+    font-family: fantasy;
+}
+#mid{
+    width: 900;
+    height: 300;
+}
+.head{
+    font-size: 100px;
+}
+p{
+  color: white;
+  font-size: 60px;
+  font-family: monospace;
+}
+#menu{
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+}
+.links{
+    list-style:none;
+    float: left;
+    color: forestgreen;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: cursive;
+    font-size: 20px;
+}
+.links:hover{
+    background-color: aqua;
+}
+a{
+  text-decoration: none;
+}
+img{
+  width: 400px;
+  height: 600px;
+}
